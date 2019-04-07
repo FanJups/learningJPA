@@ -8,6 +8,16 @@
    <persistence-unit name="Eclipselink_JPA" transaction-type="RESOURCE_LOCAL">
    
       <class>com.tutorialspoint.eclipselink.entity.Employee</class>
+      <class>com.tutorialspoint.eclipselink.entity.Staff</class>
+      <class>com.tutorialspoint.eclipselink.entity.NonTeachingStaff</class>
+      <class>com.tutorialspoint.eclipselink.entity.TeachingStaff</class>
+      <class>com.tutorialspoint.eclipselink.entity.join.StaffJoin</class>
+      <class>com.tutorialspoint.eclipselink.entity.join.NonTeachingStaffJoin</class>
+      <class>com.tutorialspoint.eclipselink.entity.join.TeachingStaffJoin</class>
+      <class>com.tutorialspoint.eclipselink.entity.table.StaffTable</class>
+      <class>com.tutorialspoint.eclipselink.entity.table.NonTeachingStaffTable</class>
+      <class>com.tutorialspoint.eclipselink.entity.table.TeachingStaffTable</class>
+      
 
       <properties>
          <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpadb"/>
